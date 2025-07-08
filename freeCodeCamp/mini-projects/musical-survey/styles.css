@@ -1,0 +1,95 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#heading {
+  text-align: center;
+  padding-top: 20px;
+  min-width: 500px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#description {
+    color: rgb(216, 216, 216);
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+    text-shadow: 1px 1px 1px grey;
+}
+
+#survey-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    min-width: 500px;
+    height: 800px;
+    width: 750px;
+    background-color: red;
+}
+
+#texts {
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 600px;
+}
+
+#name-label {
+    display: block;
+}
+
+#email-label {
+    display: block;
+}
+
+#age-label {
+    display: block;
+}
+
+#dropdown-div {
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#dropdown {
+    display: block;
+}
+
+input[type="text"] {
+    display: block;
+}
+
+input[type="email"] {
+    display: block;
+}
+
+input[type="number"] {
+    display: block;
+}
+
+
+
+#radios {
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}

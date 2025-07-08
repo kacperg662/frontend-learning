@@ -1,0 +1,52 @@
+<!-- PLAYING INSTRUMENT -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Musical Survey</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="heading">
+        <h1 id="title">Kacper's Musical Survey Form</h1>
+        <p id="description">Short survey about your music journey</p>
+      </div>
+        <form id="survey-form" action="" request="post">
+            <div id="texts">
+            <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" /></label>
+            <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your Email" /></label>
+            <label id="number-label">Age: <input id="number" type="number" min="13" max="99" placeholder="Age" /></label>
+            </div>
+            <div id="dropdown-div">
+            <label id="dropdown-label">Choose your instrument:    
+            <select id="dropdown">
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            </select>
+            </label>
+            </div>
+            <div id="radios">
+            <label for="how-long1"><input type="radio" name="how-long1" />0 - 1 year</label>
+            <label for="how-long2"><input type="radio" name="how-long2" /></label>
+            <label for="how-long3"><input type="radio" name="how-long3" /></label>
+            <label for="how-long4"><input type="radio" name="how-long4" /></label>
+            </div>
+            <div id="checkboxes">
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            </div>
+            <input type="textarea" />
+            <input id="submit" type="submit" />
+        </form>
+    </main>
+  </body>
+</html>
