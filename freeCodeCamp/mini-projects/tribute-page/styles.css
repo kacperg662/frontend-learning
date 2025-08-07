@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+}
+
+#title {
+    background-image: linear-gradient(to bottom, rgb(39, 33, 37), rgb(147, 149, 160));
+    padding-bottom: 30px;
+    min-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: black;
+}
+
+#sub-text {
+    margin-bottom: 0;
+    text-align: center;
+    color: lightslategray;
+    margin-top: -20px;
+}
+
+#navi {
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    min-width: 30%;
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+.nav-link {
+    padding-top: 5px;
+}
+
+#sec1 {
+    display: flex;
+    justify-content: center;
+}
+
+#image {
+    height: 500px;
+    padding-top: 30px;
+}
+
+#img-caption {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#sec2 {
+    text-align: center;
+}
+
+#bio-heading {
+    color: white;
+    margin-top: 40px;
+}
+
+#bio {
+    display: inline-block;
+    text-align: left;
+}
+
+#bio > li {
+    color: white;
+    padding: 10px;
+}
+
+.year {
+    color: red;
+}
+
+#guitars-heading {
+    color: white;
+    text-align: center;
+}
+
+#guitars-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.guitar-image {
+    height: 300px;
+    border-radius: 20px;
+}
