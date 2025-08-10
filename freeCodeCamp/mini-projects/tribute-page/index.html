@@ -6,35 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Tribute page dedicated to one of the most talented musician Matthew Heafy." />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <div id="title">
                 <h1 id="title-text">Matthew Kiichi Heafy</h1>
-                <h3 id="sub-text"><i>inspiration...</i></h3>
+                <h3 id="sub-text">The man who inspired many modern guitarists</h3>
             </div>
-            <nav>
-                <div id="navi">
-                    <a href="todo" class="nav-link">link1</a>
-                    <a href="todo" class="nav-link">link2</a>
-                    <a href="todo" class="nav-link">link3</a>
-                    <a href="todo" class="nav-link">link4</a>
-                </div>
-            </nav>
         </header>
         <main id="main">
-            <section id="sec1">
-                <label class="img-caption">
-                    <div id="img-div">
-                        <img id="image" src="matt.jpg">
+            <div id="sec1-background">           
+                <section id="sec1">
+            <nav>
+                <div id="navi">
+                    <a href="#image" class="nav-link">Photo</a>
+                    <a href="#sec2" class="nav-link">Bio</a>
+                    <a href="#guitars-heading" class="nav-link">Guitars</a>
+                    <a href="#footer-content" class="nav-link">More</a>
+                </div>
+            </nav>
+                    <div class="img-div">
+                        <div id="img-caption">
+                            <img id="image" src="matt.jpg">
+                        </div>
+                        <p id="tribute-info"><i>Matt performing on stage with metal band Trivium.</i></p>
                     </div>
-                    Matt ol je
-                </label>
-                <h2></h2>
-                <p id="tribute-info"></p>
-            </section>
+                </section>
+            </div>
             <section id="sec2">
-                <hr>
                 <h2 id="bio-heading">Here's a time line of Matt's life:</h2>
                 <ul id="bio">
                     <li><span class="year">1986</span> – Born on January 26 in Iwakuni, Japan. His mother is Japanese, and his father is an American U.S. Navy officer.</li>
@@ -55,34 +58,36 @@
                     <li><span class="year">2022</span> – Releases Rashomon, a black metal-inspired side project under the name Ibaraki.</li>
                     <li><span class="year">2023–2025</span> – Continues touring with Trivium, streaming on Twitch, and collaborating across genres.</li>
                 </ul>
-                <hr>
             </section>
-            <section sec3>
-                <h2 id="guitars-heading">Some of his Notable & Signature Guitars</h2>
+            <div class="gradient-top"></div>
+            <section id="sec3">
+                <h2 id="guitars-heading">And some of his Notable & Signature Guitars:</h2>
                 <div id="guitars-gallery">
                     <div class="guitar">
-                        <label class="guitar-label"><div class="img-div"><img class="guitar-image" src="guitar1.jpg" alt="Dean guitar"></div><a href="https://equipboard.com/items/dean-dimebag-razorback-white-gold" target="_blank">Dean Dimebag Razorback White Gold</a></label>
+                        <label class="guitar-label"><div class="img-div"><a href="https://equipboard.com/items/dean-dimebag-razorback-white-gold" target="_blank"><img class="guitar-image" src="guitar1.jpg" alt="Dean guitar"></div>Dean Dimebag Razorback White Gold</a></label>
                     </div>
                     <div class="guitar">
-                        <label class="guitar-label"><div class="img-div"><img class="guitar-image" src="guitar2.jpg" alt="Dean guitar"></div><a href="https://equipboard.com/items/epiphone-matt-heafy-les-paul-custom-7" target="_blank">Epiphone Matt Heafy Les Paul Custom Origins 7‑string</a></label>
+                        <label class="guitar-label"><div class="img-div"><a href="https://equipboard.com/items/epiphone-matt-heafy-les-paul-custom-7" target="_blank"><img class="guitar-image" src="guitar2.jpg" alt="Dean guitar"></div>Epiphone Matt Heafy Les Paul Custom Origins 7‑string</a></label>
                     </div>
                     <div class="guitar">
-                        <label class="guitar-label"><div class="img-div"><img class="guitar-image" src="guitar3.jpg" alt="Dean guitar"></div><a href="https://equipboard.com/items/epiphone-limited-edition-matt-heafy-les-paul-custom-electric-guitar" target="_blank">Epiphone Limited Edition Matt Heafy Les Paul Custom</a></label>
+                        <label class="guitar-label"><div class="img-div"><a href="https://equipboard.com/items/epiphone-limited-edition-matt-heafy-les-paul-custom-electric-guitar" target="_blank"><img class="guitar-image" src="guitar3.jpg" alt="Dean guitar"></div>Epiphone Limited Edition Matt Heafy Les Paul Custom</a></label>
                     </div>
                     <div class="guitar">
-                        <label class="guitar-label"><div class="img-div"><img class="guitar-image" src="guitar4.jpg" alt="Dean guitar"></div><a href="https://equipboard.com/items/gibson-les-paul-custom-electric-guitar" target="_blank">Gibson Les Paul Custom</a></label>
+                        <label class="guitar-label"><div class="img-div"><a href="https://equipboard.com/items/gibson-les-paul-custom-electric-guitar" target="_blank"><img class="guitar-image" src="guitar4.jpg" alt="Dean guitar"></div>Gibson Les Paul Custom</a></label>
                     </div>
                     <div class="guitar">
-                        <label class="guitar-label"><div class="img-div"><img class="guitar-image" src="guitar5.jpg" alt="Dean guitar"></div><a href="https://equipboard.com/items/gibson-7-string-explorer" target="_blank">Gibson Explorer 7‑String</a></label>
+                        <label class="guitar-label"><div class="img-div"><a href="https://equipboard.com/items/gibson-7-string-explorer" target="_blank"><img class="guitar-image" src="guitar5.jpg" alt="Dean guitar"></div>Gibson Explorer 7‑String</a></label>
                     </div>
                     <div class="guitar">
-                        <label class="guitar-label"><div class="img-div"><img class="guitar-image" src="guitar6.jpg" alt="Dean guitar"></div><a href="https://equipboard.com/items/dean-mkh-signature-guitar" target="_blank">Dean ML “MKH Rising Sun” Signature Model</a></label>
+                        <label class="guitar-label"><div class="img-div"><a href="https://equipboard.com/items/dean-mkh-signature-guitar" target="_blank"><img class="guitar-image" src="guitar6.jpg" alt="Dean guitar"></div>Dean ML “MKH Rising Sun” Signature Model</a></label>
                     </div>
                 </div>
             </section>
-        </main>
+        
+        <div class="gradient-bot"></div>
         <footer>
-            <a id="tribute-link" href="todo" target="_blank"></a>
+            <p id="footer-content">For more info check out official <a id="tribute-link" href="https://en.wikipedia.org/wiki/Matt_Heafy" target="_blank">Wikipedia page</a>.</p>
         </footer>
+        </main>
     </body>
 </html>
