@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+#left-nav {
+    background-color: green;
+    width: 35vw;
+    height: 100vh;
+    border-right: 1px solid black;
+}
+
+#content {
+    background-color: orange;
+    width: 65vw;
+    height: 100vh;
+}
+
+#header {
+    background-color: yellow;
+    margin: 5px;
+    text-align: center;
+}
+
+.break-line {
+    width: 100%;
+    border: 1px solid black;
+}
